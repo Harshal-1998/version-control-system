@@ -1,5 +1,4 @@
-vpublic
-class LinkedList {
+public class LinkedList {
 
     class Node {
         int data;
@@ -82,6 +81,10 @@ class LinkedList {
         }    
         return count;    
     }    
+        void display()
+            {
+               System.out.println("Harshal");
+            }
             
         
     
@@ -95,7 +98,7 @@ class LinkedList {
         sList.addNode(2);    
         sList.addNode(3);    
         sList.addNode(4);    
-           
+           sList.display();
         
             
         //Counts the nodes present in the given list    
@@ -120,7 +123,7 @@ class LinkedList {
         sList.addNode(2);
         sList.addNode(3);
         sList.addNode(4);
-
+        sList.display();
         // Counts the nodes present in the given list
         System.out.println("Count of nodes present in the list: " + sList.countNodes());
     }
