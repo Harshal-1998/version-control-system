@@ -82,6 +82,10 @@ class LinkedList {
         }    
         return count;    
     }    
+        void display()
+            {
+
+            }
             
         
     
@@ -95,7 +99,7 @@ class LinkedList {
         sList.addNode(2);    
         sList.addNode(3);    
         sList.addNode(4);    
-           
+           sList.display();
         
             
         //Counts the nodes present in the given list    
